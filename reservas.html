@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="keywords" content="Pousada, Hotel, Aluguel, Temporada, Férias">
+    <meta name="description" content="Pousada estilo hotel-fazenda no interior da cidade de Pelotas.">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Pousada Recanto da Natureza</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <a href="index.html" class="logo"><img src="img/logo_fundo.png" alt="Logotipo da Pousada"></a>
+
+        <form method="POST">
+            <input type="text" placeholder="Buscar"> <button><i class="material-icons md-18">search</i></button>
+        </form>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="pousada.html">Pousada</a></li>
+                <li><a href="acomodacoes.html">Acomodações</a></li>
+                <li><a href="reservas.html">Reservas</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <article>
+
+        <h1 class="subtitulo2">RESERVAS</h1>
+        <div class="reservas">
+            Nome: *
+            <p></p><input type="text" placeholder="Digite aqui" required>
+            <p></p>
+            E-mail: *
+            <p></p><input type="email" placeholder="Digite aqui" required>
+            <p></p>
+            Telefone: *
+            <p></p><input type="text" placeholder="Digite aqui" required>
+            <p></p>
+            Data Check-in: *
+            <p></p><input type="date" placeholder="Digite aqui" required>
+            <p></p>
+            Data Check-out: *
+            <p></p><input type="date" placeholder="Digite aqui" required>
+            <p></p>
+            Hóspedes: *
+            <p></p><input type="number" placeholder="Digite aqui" required>
+            <p></p>
+            Acomodação: *
+            <p></p>
+            <form><input type="radio" name="acomoda" value="Individual" checked>Comunitário (1p)<input type="radio" name="acomoda" value="Casal">Casal (2p)<input type="radio" name="acomoda" value="Família">Família (4p)<input type="radio" name="acomoda" value="Cabana">Cabana
+                (8p)
+            </form>
+            <p></p>
+            Informações adicionais:
+            <form>
+                <input type="checkbox" name="servico1" value="Fumante">Fumante<br>
+                <input type="checkbox" name="servico2" value="Criança pequena">Criança pequena/Recém nascido<br>
+                <input type="checkbox" name="servico3" value="Café Colonial às tardes">Café Colonial às tardes<br>
+                <input type="checkbox" name="servico4" value="Eco-passeio">Eco-passeio turístico (bike)<br>
+                <input type="checkbox" name="servico5" value="Trilhas">Trilha pelas cachoeiras (hiking)<br>
+            </form>
+            <p><input type="submit" value="ENVIAR" class="enviar"></p>
+
+            <h3 style="text-align: center;">* O preenchimento do campo é obrigatório</h3>
+        </div>
+
+        <h1 class="subtitulo">Localização</h1>
+        <div class="google-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d849.2782513708055!2d-52.48711487078311!3d-31.63075615695558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951030f52abcd231%3A0xbc01ea66eb97321!2sUnnamed%20Road%2C%20Pelotas%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1567353904976!5m2!1spt-BR!2sbr"
+                width="1920" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <h3 class="local">Estrada do Quindim, 34 - Cascata - Pelotas/RS</h3>
+    </article>
+    <footer>
+        <b>Contato</b>: recantodanatureza@gmail.com - <b>Telefone</b>: (53) 3227-3232 - <b><a href="http://facebook.com/recantodanatureza">Facebook</a></b> - <b><a href="http://instagram.com/recantodanatureza">Instagram</a></b>
+    </footer>
+</body>
+
+</html>

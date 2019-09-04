@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+b {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+    background: url(../img/logo_fundo.png) no-repeat;
+    font-size: 0;
+}
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 1% 8%;
+    background-color: #ffd950;
+    border-bottom: 5px solid green;
+}
+
+.cabecalho form {
+    width: 20%;
+    float: right;
+    margin: 15px;
+}
+
+.cabecalho input[type="text"] {
+    width: 85%;
+    height: 58px;
+    float: left;
+    padding: 15px 10px;
+}
+
+.cabecalho button {
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: brown;
+    color: #fff;
+}
+
+.menu ul {
+    margin-top: 30px;
+}
+
+.menu ul li {
+    text-align: center;
+    display: inline;
+    margin: 1%;
+}
+
+.menu ul li a {
+    font-size: 150%;
+    color: brown;
+}
+
+.menu ul li a:hover {
+    background-color: brown;
+    color: white;
+}
+
+.acomodacoes table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 75%;
+}
+
+.acomodacoes th,
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+.acomodacoes thead tr {
+    border-bottom: solid 3px brown;
+}
+
+.acomodacoes tbody tr:hover {
+    background-color: green;
+    color: white;
+}
+
+.acomodacoes tfoot {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 400%;
+    font-weight: bold;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 5px 5px;
+}
+
+.subtitulo2 {
+    font-size: 400%;
+    font-weight: bold;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 5px 5px;
+}
+
+.servicos {
+    background-color: whitesmoke;
+    color: black;
+    padding: 90px 30px;
+    text-align: center;
+    font-size: 190%;
+}
+
+.reservas {
+    background-color: silver;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.reservas input {
+    margin: 10px;
+}
+
+.reservas h3 {
+    margin: 5px;
+}
+
+.enviar {
+    background-color: brown;
+    color: white;
+}
+
+.historia {
+    background-color: whitesmoke;
+    color: black;
+    padding: 60px 40px;
+    text-align: justify;
+    font-size: 130%;
+}
+
+.fotos {
+    text-align: center;
+    margin: 6%;
+}
+
+.local {
+    font-size: 150%;
+    text-align: center;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #ffd950;
+    color: brown;
+}
+
+footer a {
+    font-weight: bold;
+    color: brown;
+}
+
+footer a:hover {
+    background-color: brown;
+    color: white;
+    font-weight: bold
+}
+
+@media screen and (max-width: 480px) {
+    .google-maps {
+        display: none;
+    }
+    header form {
+        display: none;
+    }
+    .menu ul li a {
+        font-size: 70%;
+    }
+    .subtitulo {
+        font-size: 200%;
+    }
+    .subtitulo2 {
+        font-size: 200%;
+    }
+    .servicos {
+        font-size: 110%;
+    }
+    .historia {
+        font-size: 90%;
+    }
+}
